@@ -8,7 +8,7 @@ import invariant from 'invariant'
 //const logError = require('logError');
 //const warning = require('fbjs/lib/warning');
 
-const RNGeolocation = NativeModules.LocationObserver
+const RNGeolocation = NativeModules.RNGeolocation
 const LocationEventEmitter = new NativeEventEmitter(RNGeolocation)
 const logError = () => {}
 
